@@ -11,7 +11,26 @@ A PHP library to record and manage visitor tracking data in JSON files.
 
 ## Installation
 
- With Composer :
+Ajouter le dépôt GitHub
 
-```bash
-composer require analgo/tools
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/marouan2020/Tools"
+    }
+  ]
+}
+
+
+Si ton package n’est pas sur Packagist, tu dois déclarer le dépôt:
+
+{
+  "require": {
+    "analgo/tools": "v1.0.1"
+  }
+}
+
+## Avec composer:
+composer require "analgo/tools:v1.0.1"
+
