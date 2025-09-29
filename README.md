@@ -17,7 +17,7 @@ Ajouter le dépôt GitHub
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/ton-username/nom-du-repo"
+      "url": "https://github.com/marouan2020/Tools"
     }
   ]
 }
