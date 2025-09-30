@@ -1,6 +1,6 @@
 {
   "name": "analgo/tools",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "A PHP library to write and track visitor",
   "type": "library",
   "license": "MIT",
