@@ -22,7 +22,7 @@ class GoogleAuthService {
      *
      * @throws \Exception Si le token est invalide ou ne peut pas être vérifié
      */
-    protected function getUserInfoFromGoogle(string $token, string $clientId): array {
+    public function getUserInfoFromGoogle(string $token, string $clientId): array {
         // URL de vérification du token auprès de Google
         $verifyUrl = str_replace('', urlencode($token), self::ENDPOINT_GOOGLE);
 
