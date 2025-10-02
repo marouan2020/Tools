@@ -5,7 +5,8 @@
 **Email:** marouan.ben.mansour@gmail.com  
 **License:** MIT
 
-A PHP library to record and manage visitor tracking data in JSON files.
+- A PHP library to record and manage visitor tracking data in JSON files.
+- Verifies a Google ID token (JWT) and retrieves the user information.
 
 ---
 
