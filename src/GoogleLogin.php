@@ -24,7 +24,7 @@ class GoogleAuthService {
      */
     public function getUserInfoFromGoogle(string $token, string $clientId): array {
         // URL de vérification du token auprès de Google
-        $verifyUrl = str_replace('', urlencode($token), self::ENDPOINT_GOOGLE);
+        $verifyUrl = str_replace('{IDTOKEN}', urlencode($token), self::ENDPOINT_GOOGLE);
 
         // Appel à l'API Google
         $response = file_get_contents($verifyUrl);
